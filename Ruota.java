@@ -14,6 +14,7 @@ class Ruota extends Thread{
       try{
         sleep(ritardo);
       }
+
      catch(Exception e){
         System.out.println("errore");
       }
